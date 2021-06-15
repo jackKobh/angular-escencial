@@ -1,0 +1,14 @@
+// Nuevo proyecto ng new [nombre-del-proyecto] {--directory [path]}  --style=scss --skipTests
+
+ng new bases-angular --directory ./bank-interface  --style=scss --skipTests
+
+// Nuevo módulo angular ng g m [path]
+
+ng g m components/mimodulo
+
+// Nuevo componente ng g c [path] --skipTests
+
+ng g c components/mimodulo/micomponente --skipTests
+
+
+

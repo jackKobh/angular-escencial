@@ -1,0 +1,82 @@
+Project Root
+
+.
+├── e2e/
+├── node_modules/
+├── src/
+├── .editorconfig
+├── .gitignore
+├── angular-cli.json
+├── package.json
+├── tslint.json
+├── karma.conf.js
+├── protractor.conf.js
+└── README.md
+
+node_modules (dir)  : Contiene todos los paquetes descargados mediante el gestor de paquetes de Javascript, npm.
+
+.gitignore (file)   : Especifica que carpetas o archivos tiene que ignorar el sistema de control de versiones Git.
+
+karma.conf.js (file): Da información a Karma y Protractor para poder ejecutar los tests de tu proyecto.
+
+
+
+├── src/
+├──────── app/
+├──────────────── app.component.html
+├──────────────── app.component.css
+├──────────────── app.component.spec.ts
+├──────────────── app.component.ts
+├──────────────── app.module.ts
+├──────────────── index.ts
+├──────── assets/
+├──────────────── .gitkeep
+├──────── enviroments/
+├──────────────── environments.ts
+├──────────────── environments.prod.ts
+├──────── favicon.ico
+├──────── index.html
+├──────── main.ts
+├──────── polyfills.ts
+├──────── styles.css
+├──────── test.ts
+├──────── tsconfig.json
+├──────── typings.d.ts
+
+
+
+
+src (dir)           : Aquí está nuestra aplicación, tenemos un archivo index.html que es el html principal de nuestra 
+                      aplicación, un style.css que establece los estilos generales para nuestra aplicación y una carpeta
+                      app/ que contiene el código de nuestros componentes. 
+                      En esta carpeta es donde Angular-CLI nos facilita el scaffolding al aportarnos una serie de comandos 
+                      para la creación automática de los componentes, filtros, servicios, etc… que componen nuestra 
+                      aplicación y manteniendo siempre la misma estructura. Se puede usar de dos formas: `ng generate`o `ng g`.
+
+                      Componente  ->  ng g component nombre_del_componente
+                      Directiva  -> ng g directive nombre_de_la_directiva
+                      Filtro  ->  ng g pipe nombre_del_filtro
+                      Servicio  ->  ng g service nombre_del_servicio
+                      Clase  ->  ng g class nombre_de_la_clase
+                      Interface  ->  ng g interface nombre_del_interface
+                      Enum  -> ng g enum nombre_del_enum
+                      Módulo  ->  ng g module nombre_del_módulo
+
+
+
+
+├── app/
+├──────── components/
+├──────── services/
+├──────── models/
+├──────── types/
+├──────── app.component.html
+├──────── app.component.css
+├──────── app.component.ts
+├──────── app.module.ts
+
+
+components (dir)        : Carpeta contenedora de modulos y componentes.
+services (dir)          : Carpeta contenedora de servicios.
+models (dir)            : Carpeta contenedora de módelos.
+types (dir)             : Carpeta contenedora de tipos.
