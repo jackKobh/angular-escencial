@@ -5,9 +5,9 @@ interface ProductoModel {
 }
 
 function getIvaProduct(products: ProductoModel[]): [number, number] {
-    let total:number = 0;
+    let total = 0;
 
-    products.forEach( ({ precio }) => total += precio );
+    products.forEach(producto => total += producto.precio);
 
     return [total, total * 0.15 ];
 }

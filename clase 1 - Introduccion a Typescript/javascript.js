@@ -1,5 +1,5 @@
 function calculaIvaProducto( productos ) {
-    let total = 0;
+    total = 0;
 
     productos.forEach( ({ precio }) => total += precio );
 
